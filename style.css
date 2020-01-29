@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    background-color: red;
+}
+:root{
+    --yellow: #fce38a;
+    --greeny: #95e1d3;
+    --pinky: #f38181;
+}
+.max-w {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.srch-fild-in{
+    display: none;
+}
+.search-btn{
+    display: block;
+    background: url('/images/SHOPPING_CART.png');
+    height: 18px;
+    width: 18px;
+}
